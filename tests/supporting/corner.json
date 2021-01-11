@@ -1,0 +1,94 @@
+{ 
+        "players" : {
+      "p1" : {
+        "byoyomi" : 5,
+        "game_time" : 30,
+        "id" : "Player One",
+        "prisoners" : []
+    },
+      "p2" : {
+        "byoyomi" : 5,
+        "game_time" : 20,
+        "id" : "Player Two",
+        "prisoners" : []
+    }
+    },
+        "board" : {
+        "size" : 9,
+        "white" : [{      
+      "col" : 0,
+      "row" : 0,
+      "cur_stones" : 2
+    }, {      
+      "col" : 8,
+      "row" : 0,
+      "cur_stones" : 4
+    }, {      
+      "col" : 8,
+      "row" : 1,
+      "cur_stones" : 6
+    }, {      
+      "col" : 8,
+      "row" : 7,
+      "cur_stones" : 10
+    }, {      
+      "col" : 8,
+      "row" : 8,
+      "cur_stones" : 12
+    }, {      
+      "col" : 7,
+      "row" : 8,
+      "cur_stones" : 14
+    }, {      
+      "col" : 2,
+      "row" : 8,
+      "cur_stones" : 16
+    }, {      
+      "col" : 0,
+      "row" : 8,
+      "cur_stones" : 18
+    }],
+        "black" : [{      
+      "col" : 3,
+      "row" : 4,
+      "cur_stones" : 1
+    }, {      
+      "col" : 6,
+      "row" : 0,
+      "cur_stones" : 3
+    }, {      
+      "col" : 7,
+      "row" : 0,
+      "cur_stones" : 5
+    }, {      
+      "col" : 7,
+      "row" : 1,
+      "cur_stones" : 7
+    }, {      
+      "col" : 6,
+      "row" : 1,
+      "cur_stones" : 9
+    }, {      
+      "col" : 4,
+      "row" : 3,
+      "cur_stones" : 11
+    }, {      
+      "col" : 4,
+      "row" : 5,
+      "cur_stones" : 13
+    }, {      
+      "col" : 5,
+      "row" : 5,
+      "cur_stones" : 15
+    }, {      
+      "col" : 0,
+      "row" : 1,
+      "cur_stones" : 17
+    }]
+    },
+        "config" : {
+        "byoyomi_period" : 60,
+        "komi" : 5.500000,
+        "turn" : "b"
+    }
+      }

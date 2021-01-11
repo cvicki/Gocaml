@@ -1,0 +1,163 @@
+{
+  "players" : {
+    "p1" : {
+      "byoyomi" : 5,
+      "game_time" : 3000,
+      "id" : "Player One",
+      "prisoners" : []
+     },
+    "p2" : {
+      "byoyomi" : 5,
+      "game_time" : 3200,
+      "id" : "Player Two",
+      "prisoners" : []
+    }
+  },
+  "board" : {
+    "size" : 9, 
+    "white" : [
+      {
+        "col" : 1,
+        "row" : 2,
+        "cur_stones" : 2
+      },
+      {
+        "col" : 1,
+        "row" : 5,
+        "cur_stones" : 4
+      },
+      {
+        "col" : 1,
+        "row" : 6,
+        "cur_stones" : 6
+      },
+      {
+        "col" : 2,
+        "row" : 2,
+        "cur_stones" : 8
+      },
+      {
+        "col" : 2,
+        "row" : 6,
+        "cur_stones" : 10
+      },
+      {
+        "col" : 3,
+        "row" : 6,
+        "cur_stones" : 12
+      },
+      {
+        "col" : 3,
+        "row" : 8,
+        "cur_stones" : 14
+      },
+      {
+        "col" : 4,
+        "row" : 7,
+        "cur_stones" : 16
+      },
+      {
+        "col" : 5,
+        "row" : 3,
+        "cur_stones" : 18
+      },
+      {
+        "col" : 6,
+        "row" : 2,
+        "cur_stones" : 20
+      },
+      {
+        "col" : 6,
+        "row" : 3,
+        "cur_stones" : 22
+      },
+      {
+        "col" : 6,
+        "row" : 4,
+        "cur_stones" : 24
+      },
+      {
+        "col" : 6,
+        "row" : 6,
+        "cur_stones" : 26
+      }
+    ],
+    "black" : [
+      {
+        "col" : 3,
+        "row" : 1,
+        "cur_stones" : 1
+      },
+      {
+        "col" : 4,
+        "row" : 2,
+        "cur_stones" : 3
+      },
+      {
+        "col" : 4,
+        "row" : 3,
+        "cur_stones" : 5
+      },
+      {
+        "col" : 4,
+        "row" : 4,
+        "cur_stones" : 7
+      },
+      {
+        "col" : 5,
+        "row" : 2,
+        "cur_stones" : 9
+      },
+      {
+        "col" : 5,
+        "row" : 4,
+        "cur_stones" : 11
+      },
+      {
+        "col" : 2,
+        "row" : 3,
+        "cur_stones" : 13
+      },
+      {
+        "col" : 1,
+        "row" : 4,
+        "cur_stones" : 15
+      },
+      {
+        "col" : 2,
+        "row" : 5,
+        "cur_stones" : 17
+      },
+      {
+        "col" : 3,
+        "row" : 5,
+        "cur_stones" : 19
+      },
+      {
+        "col" : 4,
+        "row" : 6,
+        "cur_stones" : 21
+      },
+      {
+        "col" : 5,
+        "row" : 6,
+        "cur_stones" : 23
+      },
+      {
+        "col" : 5,
+        "row" : 7,
+        "cur_stones" : 25
+      },
+      {
+        "col" : 5,
+        "row" : 8,
+        "cur_stones" : 27
+      }
+    ]
+  },
+  "config" : {
+    "byoyomi_period": 60,
+    "komi" : 5.5,
+    "turn" : "w"
+  }
+}

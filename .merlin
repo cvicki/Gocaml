@@ -1,0 +1,9 @@
+B _build/src
+B _build/tests
+
+PKG bisect_ppx-ocamlbuild
+PKG graphics
+PKG ounit2
+PKG str
+PKG yojson
+PKG ANSITerminal
